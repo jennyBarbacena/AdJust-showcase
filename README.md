@@ -42,8 +42,8 @@ Job ads often use wording that quietly signals who should apply. AdJust is our u
 ## Tech Stack
 - **Frontend:** Flutter Web, Dart
 - **Charts:** fl_chart (line, stacked bar, and ranking views)
-- **Data:** pre-processed CSV time series loaded at runtime with the `csv` package
-- **Analysis:** Mann-Kendall trend testing on the time series 
+- **Data:** Python, pre-processed CSV time series loaded at runtime with the `csv` package
+- **Analysis:** Python, Mann-Kendall trend testing on the time series 
 
 ## Method
 - Job ads from 2015-2025 across 10+ industries (140,000+ ads), each labeled masculine-biased, feminine-biased, or neutral. A sample was labeled manually, then rule-based labeling was applied to the full dataset.
